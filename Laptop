@@ -1,0 +1,26 @@
+package LaptopSetterGetter;
+
+/**
+ *
+ * @author Chua Wee Chan 271948
+ */
+import java.util.Scanner;
+public class Laptop {
+    Scanner scan = new Scanner(System.in);
+    String Colour;
+    void laptopBrand(){
+        System.out.println("Please enter the laptop you purchased : ");
+        String b = scan.nextLine();
+        
+        System.out.println("The Brand of the laptop you purchased is "+b+".");
+        
+    }
+    
+    public void setColour(String Colour){
+            this.Colour = Colour;
+        }
+    
+    public String getColour(){
+        return Colour;
+    }
+}
