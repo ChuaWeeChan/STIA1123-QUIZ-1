@@ -10,13 +10,13 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //CREATE AN OBJECT NAME AS purchasedLaptop
         Laptop purchasedLaptop = new Laptop();
         
         purchasedLaptop.laptopBrand();
         purchasedLaptop.setColour("Black");
         System.out.println("The Colour of this laptop is \t: "+purchasedLaptop.getColour());
         
-        
     }
     
-}
+}//end of class
