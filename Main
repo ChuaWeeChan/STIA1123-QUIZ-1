@@ -1,0 +1,22 @@
+package LaptopSetterGetter;
+
+/**
+ *
+ * @author Chua Wee Chan 271948
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Laptop purchasedLaptop = new Laptop();
+        
+        purchasedLaptop.laptopBrand();
+        purchasedLaptop.setColour("Black");
+        System.out.println("The Colour of this laptop is \t: "+purchasedLaptop.getColour());
+        
+        
+    }
+    
+}
