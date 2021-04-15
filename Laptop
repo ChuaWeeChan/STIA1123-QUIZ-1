@@ -7,19 +7,24 @@ package LaptopSetterGetter;
 import java.util.Scanner;
 public class Laptop {
     Scanner scan = new Scanner(System.in);
+    
+    //DECLARE VARIABLE
     String Colour;
+    
+    //METHOD TO PROMPT USER TO ENTER LAPTOP THEY PURCHASED
     void laptopBrand(){
         System.out.println("Please enter the laptop you purchased : ");
         String b = scan.nextLine();
-        
         System.out.println("The Brand of the laptop you purchased is "+b+".");
         
-    }
+    }//END OF METHOD
     
+    //CREATE SETTER
     public void setColour(String Colour){
             this.Colour = Colour;
-        }
+    }
     
+    //CREATE GETTER
     public String getColour(){
         return Colour;
     }
